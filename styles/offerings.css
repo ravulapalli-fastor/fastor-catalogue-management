@@ -1,0 +1,66 @@
+
+.offerings_main_container{
+    width:92%;
+    /* font-family: var(--primary-font); */
+    margin:8rem auto;
+    position:relative;
+}
+
+.offerings_title{
+    font-size: var(--text-xlarge);
+    font-weight: 700;
+    text-align:center;
+    color:#3F4255
+
+}
+
+.offerings_data_img{
+    width:100%;
+    margin-top:2%;
+}
+
+.offerings_macbook_container{
+     position:absolute;
+    top:70%;
+    left:21%;
+    right:22%;
+    bottom:10%;
+    /* width:720px;
+    height:420px; */
+    aspect-ratio: 1.7/1;
+}
+
+.offerings_macbook_data_img{
+    width:100%;
+    height:100%;
+}
+
+.offerings_lineDraw_img{
+    position:absolute;
+    left:74%;
+    /* right:25%; */
+    top:95%;
+    /* bottom:65%; */
+    aspect-ratio: auto;
+
+}
+@media (max-width:1120px) and (min-width:921px){
+    .offerings_lineDraw_img{
+        left:74%;
+        right:25%;
+        top:85%;
+        /* bottom:65%; */
+        aspect-ratio: auto;
+    
+    }}
+@media (max-width:920px){
+    .offerings_title{
+        font-size: var(--text-low-medium);
+    }
+    .offerings_lineDraw_img{
+        top:90%;
+        bottom:55%;
+        width:180px;
+        height:150px;
+    }
+}
