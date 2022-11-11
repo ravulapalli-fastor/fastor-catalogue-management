@@ -58,9 +58,12 @@
         font-size: var(--text-low-medium);
     }
     .offerings_lineDraw_img{
-        top:90%;
-        bottom:55%;
+        top:120%;
+        right:50%;
+        left:40%;
+        /* bottom:55%; */
         width:180px;
-        height:150px;
+        height:200px;
+        /* display:none */
     }
 }
