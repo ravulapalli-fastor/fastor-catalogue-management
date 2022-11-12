@@ -41,6 +41,7 @@ width:30%;
     gap:5%;
     height:750px;
     max-height: max-content;
+    margin:auto;
     margin-top: 7rem;
     /* font-family: var(--primary-font); */
 }
