@@ -133,43 +133,43 @@ const formSubmit=(e)=>{
 
   const reviewsArr=[
     {
-      image:"reviews1",
+      image:"../public/reviews1.png",
       description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est ullamcorper mattis lacus eu, ornare imperdiet men sana in condimentum. Viverra id tortor enim posuere nullam. Vitae tincidunt bibendum quis at viverra etiam enim dictum teb. Sit non accumsan tempus, eu suspendisse quis.",
       title:"James Jokovic",
       sub_title:"IT Consultant"
     },
     {
-      image:"reviews2", 
+      image:"../public/reviews2.png",
       description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est ullamcorper mattis lacus eu, ornare imperdiet men sana in condimentum. Viverra id tortor enim posuere nullam. Vitae tincidunt bibendum quis at viverra etiam enim dictum teb. Sit non accumsan tempus, eu suspendisse quis.",
       title:"James Jokovic 2",
       sub_title:"IT Consultant"
     },    
     {
-      image:"reviews3",
+      image:"../public/reviews3.png",
       description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est ullamcorper mattis lacus eu, ornare imperdiet men sana in condimentum. Viverra id tortor enim posuere nullam. Vitae tincidunt bibendum quis at viverra etiam enim dictum teb. Sit non accumsan tempus, eu suspendisse quis.",
       title:"James Jokovic 3",
       sub_title:"IT Consultant"
     },  
     {
-      image:"reviews4",
+      image:"../public/reviews4.png",
       description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est ullamcorper mattis lacus eu, ornare imperdiet men sana in condimentum. Viverra id tortor enim posuere nullam. Vitae tincidunt bibendum quis at viverra etiam enim dictum teb. Sit non accumsan tempus, eu suspendisse quis.",
       title:"James Jokovic 4",
       sub_title:"IT Consultant"
     },    
     {
-      image:"reviews5",
+      image:"../public/reviews5.png",
       description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est ullamcorper mattis lacus eu, ornare imperdiet men sana in condimentum. Viverra id tortor enim posuere nullam. Vitae tincidunt bibendum quis at viverra etiam enim dictum teb. Sit non accumsan tempus, eu suspendisse quis.",
       title:"James Jokovic 5",
       sub_title:"IT Consultant"
     },    
     {
-      image: "reviews6",
+      image:"../public/reviews6.png",
       description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est ullamcorper mattis lacus eu, ornare imperdiet men sana in condimentum. Viverra id tortor enim posuere nullam. Vitae tincidunt bibendum quis at viverra etiam enim dictum teb. Sit non accumsan tempus, eu suspendisse quis.",
       title:"James Jokovic 6",
       sub_title:"IT Consultant"
     },    
     {
-      image:"reviews7",
+      image:"../public/reviews7.png",
       description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est ullamcorper mattis lacus eu, ornare imperdiet men sana in condimentum. Viverra id tortor enim posuere nullam. Vitae tincidunt bibendum quis at viverra etiam enim dictum teb. Sit non accumsan tempus, eu suspendisse quis.",
       title:"James Jokovic 7",
       sub_title:"IT Consultant"
@@ -383,7 +383,8 @@ const formSubmit=(e)=>{
     
 {/* reviews secrion start */}
    <section className="reviews_main_container">
-   <Image style={{width: "100%", marginBottom: "-5rem"}} src={reviewsUP} alt=""/>
+   {/* <Image style={{width: "100%", marginBottom: "-5rem"}} src={reviewsUP} alt=""/> */}
+   <div className="reviews_up_bg"></div>
      <div className="reviews_inner_container">
        <h1 className="reviews_title">What people say about Us.</h1>
 
@@ -456,7 +457,8 @@ const formSubmit=(e)=>{
        </div>
 
      </div>
-     <Image style={{width: "100%", marginTop: "-1.5rem"}} src={reviewsDown} alt=""/>
+     <div className="reviews_down_bg"></div>
+     {/* <Image style={{width: "100%", marginTop: "-1.5rem"}} src={reviewsDown} alt=""/> */}
    </section>
 {/* reviews section end */}
 
